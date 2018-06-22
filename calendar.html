@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>win10日历组件</title>
+		<link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
+	</head>
+	<body>
+		<div class="ui-win10-datepicker">
+			<!--<div class="ui-win10-datepicker-header">
+				<h2>15:22:25</h2>
+				<p>星期一&nbsp;2017年12月14日</p>
+			</div>
+			<div class="ui-win10-datepicker-body">
+				<div class="ui-win10-datepicker-date">
+					<span class="ui-win10-datepicker-showdate">2017年12月</span>
+					<p>
+						<i class="ui-win10-datepicker-btn ui-win10-datepicker-prev iconfont">&#xe512;</i>
+						<i class="ui-win10-datepicker-btn ui-win10-datepicker-next iconfont">&#xe64b;</i>
+					</p>
+				</div>
+				<div class="ui-win10-datepicker-con">
+					<table class="ui-win10-datepicker-date">
+						<thead>
+							<th>日</th>
+							<th>一</th>
+							<th>二</th>
+							<th>三</th>
+							<th>四</th>
+							<th>五</th>
+							<th>六</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="non-cur-month"><span><i>26</i></span></td>
+								<td class="non-cur-month"><span><i>27</i></span></td>
+								<td class="non-cur-month"><span><i>28</i></span></td>
+								<td class="non-cur-month"><span><i>29</i></span></td>
+								<td class="non-cur-month"><span><i>30</i></span></td>
+								<td><span><i>1</i></span></td>
+								<td><span><i>2</i></span></td>
+							</tr>
+							<tr>
+								<td><span><i>3</i></span></td>
+								<td><span><i>4</i></span></td>
+								<td><span><i>5</i></span></td>
+								<td><span><i>6</i></span></td>
+								<td><span><i>7</i></span></td>
+								<td><span><i>8</i></span></td>
+								<td><span><i>9</i></span></td>
+							</tr>
+							<tr>
+								<td><span><i>10</i></span></td>
+								<td><span><i>11</i></span></td>
+								<td><span><i>12</i></span></td>
+								<td><span><i>13</i></span></td>
+								<td><span class="ui-win10-datepicker-cur"><i>14</i></span></td>
+								<td><span><i>15</i></span></td>
+								<td><span><i>16</i></span></td>
+							</tr>
+							<tr>
+								<td><span><i>17</i></span></td>
+								<td><span class="ui-win10-datepicker-active"><i>18</i></span></td>
+								<td><span><i>19</i></span></td>
+								<td><span><i>20</i></span></td>
+								<td><span><i>21</i></span></td>
+								<td><span><i>22</i></span></td>
+								<td><span><i>23</i></span></td>
+							</tr>
+							<tr>
+								<td><span><i>24</i></span></td>
+								<td><span><i>25</i></span></td>
+								<td><span><i>26</i></span></td>
+								<td><span><i>27</i></span></td>
+								<td><span><i>28</i></span></td>
+								<td><span><i>29</i></span></td>
+								<td><span><i>30</i></span></td>
+							</tr>
+							<tr>
+								<td><span><i>31</i></span></td>
+								<td class="non-cur-month"><span><i>1</i></span></td>
+								<td class="non-cur-month"><span><i>2</i></span></td>
+								<td class="non-cur-month"><span><i>3</i></span></td>
+								<td class="non-cur-month"><span><i>4</i></span></td>
+								<td class="non-cur-month"><span><i>5</i></span></td>
+								<td class="non-cur-month"><span><i>6</i></span></td>
+							</tr>						
+						</tbody>
+					</table>
+					<table class="ui-win10-datepicker-month none">
+						<tbody>
+							<tr>
+								<td><span>12月</span></td>
+								<td><span class="active">1月</span></td>
+								<td><span>2月</span></td>
+								<td><span>3月</span></td>
+							</tr>
+							<tr>
+								<td><span>4月</span></td>
+								<td><span>5月</span></td>
+								<td><span>6月</span></td>
+								<td><span>7月</span></td>
+							</tr>
+							<tr>
+								<td><span>8月</span></td>
+								<td><span>9月</span></td>
+								<td><span>10月</span></td>
+								<td><span>11月</span></td>
+							</tr>
+							<tr>
+								<td><span>12月</span></td>
+								<td><span>1月</span></td>
+								<td><span>2月</span></td>
+								<td><span>3月</span></td>
+							</tr>
+						</tbody>
+					</table>		
+					<table class="ui-win10-datepicker-year none">
+						<tbody>
+							<tr>
+								<td class="non-cur-year"><span>2017</span></td>
+								<td><span class="active">2018</span></td>
+								<td><span>2019</span></td>
+								<td><span>2020</span></td>
+							</tr>
+							<tr>
+								<td><span>2021</span></td>
+								<td><span>2022</span></td>
+								<td><span>2023</span></td>
+								<td><span>2024</span></td>
+							</tr>
+							<tr>
+								<td><span>2025</span></td>
+								<td><span>2026</span></td>
+								<td><span>2027</span></td>
+								<td><span>2028</span></td>
+							</tr>
+							<tr>
+								<td><span>2029</span></td>
+								<td><span>2030</span></td>
+								<td><span>2031</span></td>
+								<td><span>2032</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>-->
+		</div>
+		
+		<script type="text/javascript" src="js/require.js" data-main="js/win10Main"></script>
+	</body>
+</html>
